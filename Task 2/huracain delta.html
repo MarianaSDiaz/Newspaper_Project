@@ -3,38 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/huracain-delta-BBC.css">
+    <link rel="stylesheet" href="./assets/styles/huracain-delta-BBC.css">
     <title>Hurricane Delta makes landfall in storm-battered Louisiana</title>
 </head>
 <body>
     <header id="main-header">
         <div id="global-navegation-bar">
-            <div id="top-navbar" class="navbar-cont">
-                <ul>
-                    <li class="global-navegation"><a href="https://www.bbc.com/"></a><img src="./assets/img/BBC-Logo.png" alt="BBC-Logo"></li>
-                    <li class="global-navegation"><a href="https://www.bbc.co.uk/accessibility/"></a><img src="./assets/img/loggin.png" alt="Sign-in"></li>
-                    <li class="global-navegation"><a href="https://www.bbc.com/">Home</a></li>
-                    <li class="global-navegation"><a href="https://www.bbc.com/news">News</a></li>
-                    <li class="global-navegation"><a href="https://www.bbc.com/sport">Sport</a></li>
-                    <li class="global-navegation"><a href="https://www.bbc.com/reel">Reel</a></li>
-                    <li class="global-navegation"><a href="https://www.bbc.com/worklife">Worklife</a></li>
-                    <li class="global-navegation"><a href="https://www.bbc.com/travel">Travel</a></li>
-                    <li class="global-navegation"><a href="https://www.bbc.com/future">Future</a></li>
-                    <li class="global-navegation">
-                        <a href="https://www.bbc.com/news/world-us-canada-54489432#footer-navigation" type="button">
-                            <span class="hidden-button">More</span>
-                            <span class="hidden-button down-icon"><img src="./assets/img/flechaicon.png" alt="Icon"></span>
-                        </a>
-                    </li>
-                    <li class="global-navegation">
-                        <a href="https://www.bbc.co.uk/search">
-                        <span class="search-icon"><img src="./assets/img/search.png" alt="search-icon"></span>
-                        <span>Search</span> 
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div id="hidden-top-navbar" class="navbar-cont">
+            <ul class="bbc-container">
+                <li><a href="https://www.bbc.com/"></a>
+                    <img src="./assets/img/BBC-Logo.png" alt="BBC-Logo" class="bbc-logo"></li>
+                <li><a href="https://www.bbc.co.uk/accessibility/"></a>
+                    <img src="./assets/img/loggin.png" alt="Sign-in"></li>
+                <li><a href="https://www.bbc.com/">Home</a></li>
+                <li><a href="https://www.bbc.com/news">News</a></li>
+                <li><a href="https://www.bbc.com/sport">Sport</a></li>
+                <li><a href="https://www.bbc.com/reel">Reel</a></li>
+                <li><a href="https://www.bbc.com/worklife">Worklife</a></li>
+                <li><a href="https://www.bbc.com/travel">Travel</a></li>
+                <li><a href="https://www.bbc.com/future">Future</a></li>
+                <li>
+                    <a href="https://www.bbc.com/news/world-us-canada-54489432#footer-navigation" type="button">
+                        <span class="hidden-button">More</span>
+                        <span class="hidden-button down-icon"><img src="./assets/img/flechaicon.png" alt="Icon"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.co.uk/search">
+                    <span class="search-icon"><img src="./assets/img/search.png" alt="search-icon"></span>
+                    <span>Search</span> 
+                    </a>
+                </li>
+            </ul>
+
+            <!-- <div id="hidden-top-navbar" class="navbar-cont">
                 <div class="hidden-top-navbar-cont">
                     <ul>
                         <li class="list-items"><a href="https://www.bbc.com/culture/music">Music</a></li>
@@ -46,30 +47,51 @@
                         <button><img src="./assets/img/close.png" alt="close-button"></button>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div id="news-nav-conteiner">
             <div id="mast-head">
                 <a href="https://www.bbc.com/news" class="principal-news-logo">News</a>
             </div>
-
+        </div>
+        <nav class="integral-navbar">
+            <ul class="header-navbar">
+                <li><a href="https://www.bbc.com/news">Home</a></li>
+                <li><a href="https://www.bbc.com/news/election/us2020">US Election</a></li>
+                <li><a href="https://www.bbc.com/news/coronavirus">Coronavirus</a></li>
+                <li><a href="https://www.bbc.com/news/av/10462520">Video</a></li>
+                <li><a href="https://www.bbc.com/news/world">World</a></li>
+                <li><a href="https://www.bbc.com/news/world/us_and_canada">US & Canada</a></li>
+                <li><a href="https://www.bbc.com/news/uk">UK</a></li>
+                <li><a href="https://www.bbc.com/news/business">Business</a></li>
+                <li><a href="https://www.bbc.com/news/technology">Tech</a></li>
+                <li><a href="https://www.bbc.com/news/science_and_environment">Science</a></li>
+                <li><a href="https://www.bbc.com/news/stories">Stories</a></li>
+            </ul>
+            <div class="hidden-menue-navbar">
+                <img src="./assets/img/more-logo.png" alt="more item">
+                More
+            </div>
+        </nav>
+        <div class="select-text">
+            <a href="https://www.bbc.com/news/world/us_and_canada">
+                <span>US & Canada</span>
+            </a>
         </div>
     </header>
     <main id="main-content">
         <article>
             <header>
-                <div id="Title">
+                <div>
                     <h1>Hurricane Delta makes landfall in storm-battered Louisiana</h1>
                 </div>
                 <div id="datedata">
-                    <time datetime="2020-10-10T04:10:35.000Z"></time> 
+                    <img src="./assets/img/clock.png" alt="clock">
+                    <time datetime="2020-10-10T04:10:35.000Z">1 day ago</time> 
                 </div>
             </header>
             <figure class="media-style">
-                <div class="media-content">
-                    <iframe src="//emp.bbc.com/emp/SMPj/2.35.13/iframe.html" title="Hurricane Delta hits Louisiana">
-                    </iframe>
-                </div>
+                <iframe src="https://www.bbc.com/news/av/embed/p08txsbj/54489432"></iframe>
                 <figcaption class="description-frame-style">
                  Hurricane Delta is the 10th named storm to make US landfall so far this year
                 </figcaption>
@@ -187,9 +209,164 @@
                     Governor Edwards also previously warned that although Delta was less strong than Laura, 
                     it could sweep up debris from the previous hurricane and hurl it like missiles.
                 </p>
-            </div>
-       
+            </div>      
         </article>
     </main>
+    <section class="section-one">
+        <div class="title-section">
+            Related Topics
+        </div>
+        <ul class="section-items">
+            <li>
+                <a href="https://www.bbc.com/news/topics/cx1m7zg01xyt">United States</a>
+            </li>
+            <li>
+                <a href="https://www.bbc.com/news/topics/c207p54mlvzt">Louisiana</a>
+            </li>
+            <li>
+                <a href="https://www.bbc.com/news/topics/cx1m7zg05wpt">Severe weather</a>
+            </li>
+            <li>
+                <a href="https://www.bbc.com/news/topics/cv0enqmljg3t">Hurricanes</a>
+            </li>
+        </ul>
+    </section>
+    <section class="section-two">
+        <div class="title-section">
+            More on this story
+        </div>
+        <a href="https://www.bbc.com/news/world-latin-america-54447341" >
+            Hurricane Delta makes landfall on Mexico's coast
+            <dt class="published">4 days ago</dt>
+        </a>
+        
+        <a href="https://www.bbc.com/news/world-45112674">
+            Hurricanes: A guide to the world's deadliest storms
+            <dt class="published">16 September</dt>
+        </a>
+        
+        <a href="https://www.bbc.com/news/world-us-canada-53921285">
+            Hurricane Laura ‘will cause unsurvivable storm surge’
+            <dt class="published">27 August</dt>
+        </a>
+        
+        <a href="https://www.bbc.com/news/science-environment-50380431">
+            Climate change: Bigger hurricanes are now more damaging
+            <dt class="published">11 November 2019</dt>
+        </a>
+    </section>
+    <footer>
+        <div class="header-border">
+            <div class="footer-header">BBC News Services</div>
+            <ul>
+                <li>
+                    <a href="https://www.bbc.co.uk/news/10628994">
+                        <img src="./assets/img/phone.png" alt="mobile">
+                            On your mobile
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.co.uk/news/help-50068132">
+                        <img src="./assets/img/mic.png" alt="mic">
+                            On smart speakers
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.co.uk/news/10628323">
+                        <img src="./assets/img/letter.png" alt="openletter">
+                            Get news alerts
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.co.uk/news/20039682">
+                        <img src="./assets/img/closeletter.png" alt="closeletter">
+                            Contact BBC news
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-menues">
+            <ul>
+                <li>
+                    <a href="https://www.bbc.com/">Home</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.com/news">News</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.com/sport">Sports</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.com/reel">Reel</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.com/worklife">Worklife</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.com/travel">Travel</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.com/future">Future</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.com/culture">Culture</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.com/culture/music">Music</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.co.uk/schedules/p00fzl9m">TV</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.com/weather">Weather</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.co.uk/sounds">Sounds</a>
+                </li>
+            </ul>
+        </div> 
+        <div class="legal-menue">
+            <ul>
+                <li>
+                    <a href="https://www.bbc.co.uk/usingthebbc/terms">Terms of Use</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.co.uk/aboutthebbc">About the BBC</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.co.uk/usingthebbc/privacy">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.co.uk/usingthebbc/cookies">Cookies</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.co.uk/accessibility">Accessibility Help</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.co.uk/guidance">Parental Guidance</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.co.uk/contact">Contact the BBC</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.co.uk/bbcnewsletter">Get Personalised Newsletters</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.co.uk/news/help-41670342">Why you can trust the BBC</a>
+                </li>
+                <li>
+                    <a href="https://www.bbcglobalnews.com/home/">Advertise with us</a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.com/usingthebbc/cookies/how-can-i-change-my-bbc-cookie-settings/">
+                        AdChoices / Do Not Sell My Info
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p>© 2020 BBC. The BBC is not responsible for the content of external sites.
+            <a href="https://www.bbc.co.uk/help/web/links/" class="legal-link">Read about our approach to external linking.</a>
+        </p>               
+    </footer>
 </body>
 </html>
